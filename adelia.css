@@ -1,0 +1,298 @@
+/* General Styles */
+html, body {
+    font-size: 12pt;
+    background: #EEF2FF;
+    color: #000000;
+    margin: 0;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    background: inherit;
+    color: #34345C;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited {
+    background: inherit;
+    color: #34345C;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: #DD0000;
+    background: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    color: #34345C;
+    background-image: linear-gradient(to right, rgba(238,242,255,1), rgba(52,52,92,0.75), rgba(238,242,255,1));
+    border: none;
+    height: 1px;
+}
+
+.filesize a {
+    text-decoration: underline;
+}
+
+.adminbar {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.logo {
+    clear: both;
+    text-align: center;
+    font-size: 24pt;
+    color: #AF0A0F;
+    width: 100%;
+}
+
+.postarea-container {
+    background: #D6DAF0;
+    padding: 15px;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.rules {
+    width: 468px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.rules li {
+    margin-left: 1em;
+}
+
+.postblock {
+    background: #9988EE;
+    color: #000000;
+    font-weight: 800;
+    padding: 5px;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.passvalid {
+    background: #9988EE;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+.dellist {
+    background: inherit;
+    text-align: center;
+}
+
+.delbuttons {
+    background: inherit;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.postlists {
+    background: #FFFFFF;
+    width: 100%;
+    padding: 0;
+    color: #000000;
+}
+
+.row1, .row2 {
+    font-size: 12px;
+    color: #000000;
+    padding: 10px;
+}
+
+.row1 {
+    background: #9AD2F6;
+}
+
+.row2 {
+    background: #FFFFFF;
+}
+
+.unkfunc {
+    color: #789922;
+}
+
+.filesize {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.filetitle {
+    font-size: 18px;
+    font-family: serif;
+    color: #0F0C5D;
+    font-weight: 800;
+}
+
+.postername {
+    font-size: 12px;
+    font-family: serif;
+    color: #117743;
+    font-weight: 800;
+}
+
+.reply {
+    background: #D6DAF0;
+    color: #000000;
+    font-family: serif;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a, .pagination span {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 2px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #34345C;
+}
+
+.pagination .current {
+    background: #34345C;
+    color: #fff;
+    border-color: #34345C;
+}
+
+.pagination .disabled {
+    color: #999;
+    border-color: #ccc;
+}
+
+/* Styling the Reply Mode Label and Link */
+.replymode {
+    background-color: #0010E0; /* Blue background */
+    color: #FFFFFF; /* White text */
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.replymode a {
+    color: #FFFFFF; /* White link text */
+    text-decoration: underline;
+}
+
+.replymode a:hover {
+    color: #DD0000; /* Red on hover */
+}
+
+/* Styling the Reply Form */
+form.postform {
+    margin: 0 auto;
+    width: 500px;
+    text-align: left;
+}
+
+form.postform label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form.postform input[type="text"],
+form.postform textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form.postform input[type="submit"] {
+    padding: 10px 20px;
+    background: #34345C;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form.postform input[type="submit"]:hover {
+    background: #DD0000;
+}
+
+/* Styling Threads */
+.thread {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.thread .title {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #FF0000; /* Bright red color for the title */
+    margin-bottom: 10px; /* Space between title and image/message */
+}
+
+.thread .reply-link {
+    font-size: 14pt;
+    float: right;
+    color: #34345C;
+}
+
+.thread img {
+    display: block;
+    margin: 10px 0;
+    max-width: 150px;
+    height: auto;
+}
+
+.thread .message {
+    clear: both;
+    margin-top: 10px;
+}
+
+/* Styling Create Thread Button */
+#create-thread-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #34345C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#create-thread-button:hover {
+    background: #DD0000;
+}
+
+/* Close Button */
+#post-form-container button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #DD0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#post-form-container button:hover {
+    background: #AA0000;
+}
